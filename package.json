@@ -24,13 +24,15 @@
     "@payloadcms/payload-cloud": "3.49.0",
     "@payloadcms/richtext-lexical": "3.49.0",
     "@payloadcms/ui": "3.49.0",
+    "@tamagui/config": "^1.132.15",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "next": "15.4.4",
     "payload": "3.49.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "sharp": "0.34.2"
+    "sharp": "0.34.2",
+    "tamagui": "^1.132.15"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",

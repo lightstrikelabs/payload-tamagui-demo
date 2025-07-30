@@ -2,6 +2,7 @@ import { headers as getHeaders } from 'next/headers.js'
 import Image from 'next/image'
 import { getPayload } from 'payload'
 import React from 'react'
+import { Button } from 'tamagui'
 import { fileURLToPath } from 'url'
 
 import config from '@/payload.config'
@@ -36,7 +37,7 @@ export default async function HomePage() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Go to admin panel
+            <Button theme="blue">Go to admin panel</Button>
           </a>
           <a
             className="docs"
@@ -44,7 +45,7 @@ export default async function HomePage() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Documentation
+            <Button theme="red">Documentation</Button>
           </a>
         </div>
       </div>
