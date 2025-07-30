@@ -31,6 +31,7 @@
     "payload": "3.49.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-native-web": "^0.21.0",
     "sharp": "0.34.2",
     "tamagui": "^1.132.15"
   },
